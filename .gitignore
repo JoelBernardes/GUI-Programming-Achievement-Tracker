@@ -1,0 +1,14 @@
+# Git ignore that will work for electron and for the project when commiting to githib (not reliant on Webstorm)
+
+# Dependencies (contains massive Electorn binaries that wont allow us to use the repo (files to large)
+node_modules/
+
+# Electorn build & packaging outputs
+dist/
+out/
+release/
+build/
+
+# Enviornment and logs
+.env
+*.log
